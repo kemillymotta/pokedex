@@ -28,21 +28,22 @@ const fetchPokemon = async (pokemon) => {
     const data = await fetchPokemon(pokemon);
 
     if (data) {
-        pokemonImage.innerHTML = 'block';
-        pokemonName.innerHTML = data.name;
-        pokemonNumber.innerHTML = data.id;
-        
-        const sprites = data.sprites.versions['generation-v']['black-white'];
+    pokemonImage.style.display = 'block';
+    pokemonName.innerHTML = data.name;
+    pokemonNumber.innerHTML = data.id;
 
-        if(sprites.animated.front_default) {
-            pokemonImage.src = sprites.animated.front_default;
-        } else {
-            pokemonImage.src = sprites.front_default;
-        }
+    const sprites =
+        data.sprites.versions['generation-v']['black-white'];
 
-        input.value = '';
-        searchPokemon = data.id;
+    if (sprites.animated.front_default) {
+        pokemonImage.src = sprites.animated.front_default;
     } else {
+        pokemonImage.src = sprites.front_default;
+    }
+
+    input.value = '';
+    searchPokemon = data.id;
+} else {
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'Not found :c';
         pokemonNumber.innerHTML = '';
