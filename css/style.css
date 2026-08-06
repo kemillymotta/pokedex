@@ -33,3 +33,9 @@ main {
     transform: translate(-63%, 20%);
     height: 18%;
 }
+
+.pokemon_data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+}
