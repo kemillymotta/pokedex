@@ -1,56 +1,55 @@
 # Pokédex
 
-Uma Pokédex interativa desenvolvida com **HTML**, **CSS** e **JavaScript**, consumindo dados da **PokéAPI**. O projeto permite pesquisar Pokémon pelo nome ou número, além de navegar entre eles por meio dos botões de navegação.
+An interactive **Pokédex** built with **HTML**, **CSS**, and **JavaScript**, consuming data from the **PokéAPI**. Search Pokémon by name or number, browse through them using navigation buttons, and view their official artwork.
 
 ## Preview
 
-![Preview](images/preview.png)
+![Pokédex Preview](images/preview.png)
 
-## Funcionalidades
+## Features
 
-- 🔍 Pesquisa de Pokémon por nome ou número
-- ⬅️➡️ Navegação entre Pokémon
-- 🖼️ Exibição da imagem oficial do Pokémon
-- 📋 Exibição do nome e número do Pokémon
-- 📱 Layout responsivo
-- 🌐 Consumo da PokéAPI utilizando `fetch`
+- 🔍 Search Pokémon by name or Pokédex number
+- ⬅️➡️ Navigate between Pokémon
+- 🖼️ Display official Pokémon artwork
+- 📋 Show Pokémon name and Pokédex number
+- 📱 Responsive interface
+- 🌐 Data fetched from the PokéAPI
 
-## Tecnologias
+## Built With
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - PokéAPI
 
-## Aprendizados
+## What I Learned
 
-Durante o desenvolvimento deste projeto foram praticados conceitos como:
+This project helped me practice:
 
-- Manipulação do DOM
-- Requisições assíncronas (`fetch`)
-- `async`/`await`
-- Consumo de APIs REST
-- Organização de código JavaScript
-- Responsividade com CSS
-- Manipulação de eventos
+- DOM manipulation
+- Asynchronous JavaScript (`fetch`, `async`/`await`)
+- REST API consumption
+- Event handling
+- Responsive web design
+- Front-end project organization
 
-## Como executar
+## Getting Started
 
-1. Clone o repositório
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/kemillymotta/pokedex.git
 ```
 
-2. Entre na pasta do projeto
+2. Navigate to the project folder:
 
 ```bash
 cd pokedex
 ```
 
-3. Abra o arquivo `index.html` ou utilize a extensão **Live Server** no VS Code.
+3. Open `index.html` in your browser or run the project using the **Live Server** extension in Visual Studio Code.
 
-## Estrutura do projeto
+## Project Structure
 
 ```
 pokedex/
@@ -67,15 +66,15 @@ pokedex/
 
 ## API
 
-Este projeto utiliza a **PokéAPI** para obter informações dos Pokémon.
+This project uses the **PokéAPI** to retrieve Pokémon data.
 
 https://pokeapi.co/
 
-## Créditos
+## Acknowledgements
 
-Projeto desenvolvido como prática de estudos em JavaScript, inspirado no tutorial do Manual do Dev.
+This project was developed for learning purposes and was inspired by the **Manual do Dev** Pokédex tutorial.
 
-## Autora
+## Author
 
 **Kemilly Motta**
 
