@@ -73,9 +73,3 @@ https://pokeapi.co/
 ## Acknowledgements
 
 This project was developed for learning purposes and was inspired by the **Manual do Dev** Pokédex tutorial.
-
-## Author
-
-**Kemilly Motta**
-
-- GitHub: https://github.com/kemillymotta
